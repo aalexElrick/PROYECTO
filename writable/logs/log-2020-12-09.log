@@ -1,0 +1,136 @@
+CRITICAL - 2020-12-09 14:41:09 --> Invalid file: object.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('object.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('object', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(63): view('object')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->object()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-09 14:43:40 --> Invalid file: object.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('object.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('object', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(63): view('object')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->object()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-09 14:43:45 --> Invalid file: object.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('object.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('object', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(63): view('object')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->object()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-09 14:52:38 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+#0 C:\xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Hospital/consul...')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Hospital/consul...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-09 14:53:02 --> Cannot redeclare App\Controllers\Hospital::ConsultaAdmin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 14:53:06 --> Cannot redeclare App\Controllers\Hospital::ConsultaAdmin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 14:53:07 --> Cannot redeclare App\Controllers\Hospital::ConsultaAdmin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 14:53:07 --> Cannot redeclare App\Controllers\Hospital::ConsultaAdmin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 14:53:13 --> Cannot redeclare App\Controllers\Hospital::ConsultaAdmin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 14:53:26 --> Cannot redeclare App\Controllers\Hospital::ConsultaAdmin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 15:03:32 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('ConsultaAdmin', Array, true)
+#1 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(70): view('ConsultaAdmin', Array)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->ConsultaAdmin()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-09 15:04:28 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('ConsultaAdmin', Array, true)
+#1 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(70): view('ConsultaAdmin', Array)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->ConsultaAdmin()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-09 15:04:32 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('ConsultaAdmin', Array, true)
+#1 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(70): view('ConsultaAdmin', Array)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->ConsultaAdmin()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-09 16:19:06 --> Class 'App\Controllers\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->ConsultaAdmin()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-09 16:23:53 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('foroAdmin', Array, true)
+#1 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(91): view('foroAdmin', Array)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->foroAdmin()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-09 16:24:05 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('foroAdmin', Array, true)
+#1 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(91): view('foroAdmin', Array)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->foroAdmin()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-09 21:05:17 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+#0 C:\xampp\htdocs\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Hospital/Doctor...')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Hospital/Doctor...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-09 21:58:34 --> Invalid file: objectRegis.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('objectRegis.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('objectRegis', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(111): view('objectRegis')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->objectRegis()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-09 21:59:34 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\framework\app\Views\usuarios.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('usuarios', Array, true)
+#3 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(111): view('usuarios')
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->objectRegis()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-09 22:26:12 --> Cannot redeclare App\Controllers\Hospital::usuariosL()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 22:28:31 --> Invalid file: usuariosL.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuariosL.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1119): CodeIgniter\View\View->render('usuariosL', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Hospital.php(111): view('usuariosL')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Hospital->usuariosL()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hospital))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

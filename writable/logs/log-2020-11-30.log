@@ -1,0 +1,60 @@
+CRITICAL - 2020-11-30 15:53:43 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 15:53:53 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 15:54:40 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 15:56:19 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 15:57:21 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 15:57:37 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 15:57:38 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 15:59:30 --> Class 'app\Models\bd_model' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 16:55:11 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getopt()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 16:57:41 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getopt()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(918): App\Controllers\Formulario->index()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulario))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

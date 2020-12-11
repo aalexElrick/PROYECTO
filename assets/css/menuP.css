@@ -1,0 +1,87 @@
+
+button{
+	color:black;
+}
+nav{
+	background-color: #a18594;
+  font-style: italic;
+  font-weight: bold;
+  }
+
+body{
+	background-image: url(https://color-hex.org/colors/51d1f6.png);
+ background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+h1,h2,h4{
+  text-align: center;
+}
+
+.xd{
+	font-style: italic;
+	font-weight: bold;
+	text-align: justify-all;
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+.otro{
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 5%;
+  width: 40%;
+  display: inline-block;
+  text-align: justify-all;
+}
+
+.xd2{
+  margin-left: 2.2%;
+}
+
+.xd3{
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify-all;
+  width: 50%;
+ 
+  display: block;
+}
+.footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 15px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 10px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+footer{
+	   position: relative;
+       bottom: 0;
+       width: 100%;
+}
+
